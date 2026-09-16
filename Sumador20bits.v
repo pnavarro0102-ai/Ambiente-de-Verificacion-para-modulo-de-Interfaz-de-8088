@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////
+//
+//  Sumador20bits.v
+//
+//  Este modulo es un sumador de 20 bits
+//                
+//  Pablo Navarro y Vladimir Gonzales
+//
+////////////////////////////////////////////////////////////////////
+
+module Sumador20bits (A, B, OUT, CLK, ENA, RST);
+
+    input [19:0] A, B;
+    output wire [19:0] OUT;
+  	input ENA, CLK, RST;
+  
+  
+   	 assign OUT = A + B;
+ 	
+
+    
+endmodule
+
+////////////////////////////////////////////////////////////////////
