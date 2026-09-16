@@ -16,7 +16,7 @@ module Top;
   
   	initial begin
     	$dumpfile("Wavetb.vcd");
-      	$dumpvars(0, Top);   
+      $dumpvars(0, Top);   
     end
 
     //Interfaz
